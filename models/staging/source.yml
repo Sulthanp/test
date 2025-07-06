@@ -6,3 +6,11 @@ sources:
       tables:
         - name: raw_customersdata
         - name: orders
+        - name: customers
+        - name: retro
+          columns:
+            - name: id
+              tests:
+              - unique
+              - not_null
+            
