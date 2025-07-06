@@ -45,5 +45,3 @@ left join c_o using (customer_id)
 )
 
 select * from final
-
-
